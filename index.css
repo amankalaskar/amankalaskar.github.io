@@ -1,33 +1,41 @@
+.section-name{
+    text-align: center;
+}
 .main-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    width: 300px;
+    width: 600px;
+    height: fit-content;
     margin: auto;
     text-align: center;
     font-family: arial;
-    transition: width 0.5s;
+    /* transition: 0.5s; */
 }
-.main-card:hover{
-    width: 350px;
-}
+/* .main-card:hover{
+    width: 320px;
+} */
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    width: 25%;
+    width:600px;
+    height: fit-content;
     margin: auto;
     text-align: center;
     font-family: arial;
-    transition: width 0.5s;
-    position: relative;
+    /* position: relative; */
+    border-radius: 10px;
+    transition: 0.5s;
 }
 .card:hover{
-    width: 30%;
+    width: 630px;
 }
+
 
 .title {
     color: grey;
     font-size: 18px;
 }
 
-button {
+button{
     border: none;
     outline: 0;
     display: inline-block;
@@ -57,6 +65,10 @@ button:hover, a:hover {
 }
 
 .skills {
-    display:flex;  
+    display:grid;  
+    row-gap: 20px;
+    column-gap: 0px ;
+}
+@media screen {
     
 }
